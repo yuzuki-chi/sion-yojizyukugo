@@ -1,7 +1,4 @@
 <?php
-try {
-	$data = file_get_contents('php://input'));
-	file_put_contents("./webhook.txt", $data);	
-}catch(Exception $e) {
-	echo '<b>ERROR:</b> ', $e->getMessage(), '<br/>';
-}
+$filepath = (__FILE__);
+
+$output = shell_exec("cd /home/users/1/chu.jp-citron-tree/web/sion-yojizyukugo/ && git pull origin master");
