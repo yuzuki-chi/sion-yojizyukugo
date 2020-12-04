@@ -1,8 +1,11 @@
-# Mac file
+# mac env
 .DS_Store
+
+# tmp file
+/tmp
+
+# TwitterOauth
+/twitteroauth
 
 # env file
 common.php
-
-# Twitter API files
-twitteroauth/
